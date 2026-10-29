@@ -78,7 +78,7 @@ pub(crate) mod stat;
 pub(crate) mod text;
 pub(crate) mod util;
 
-pub use criteria::wildcard_find;
+pub use criteria::{WildcardLimit, wildcard_contains_with_budget};
 pub use ets::Timeline;
 pub use stat::{aggregate_values, aggregate_values_k};
 
